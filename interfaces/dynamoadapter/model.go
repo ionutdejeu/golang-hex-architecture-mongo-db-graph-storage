@@ -6,7 +6,7 @@ type EntityPropertyTriplet struct {
 	ObjectValue string		`json:"objectvalue"`
 }
 
-type Entity struct { 
+type EntityStoreEntity struct { 
 	id string 
 	Properties EntityPropertyTriplet[]
 }
